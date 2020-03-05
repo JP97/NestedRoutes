@@ -7,8 +7,8 @@
         <br />
         <br />
 
-            <router-link to="details"> Detail </router-link>
-            <router-link to="buy"> Buy </router-link>
+            <router-link to="/first/details"> Detail </router-link>
+            <router-link to="/first/buy"> Buy </router-link>
 
         <router-view></router-view>
     </div>

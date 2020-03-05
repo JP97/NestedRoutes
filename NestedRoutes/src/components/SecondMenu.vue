@@ -7,7 +7,7 @@
         <br />
         <br />
 
-        <router-link to="forfun"> ForFun </router-link>
+        <router-link to="/second/forfun"> ForFun </router-link>
 
         <router-view></router-view>
     </div>

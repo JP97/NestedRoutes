@@ -14,13 +14,13 @@ Vue.use(VueRouter);
 const routes = [
     {
         path: '/first', component: FirstMenu, children: [
-        { path: '/details', component: Details },
-        {path: '/buy', component: Buy }
+        { path: 'details', component: Details },
+        { path: 'buy', component: Buy }
         ]
     },
     {
         path: '/second', component: SecondMenu, children: [
-            { path: '/forfun', component: ForFun }]
+            { path: 'forfun', component: ForFun }]
     }
     
 ]
